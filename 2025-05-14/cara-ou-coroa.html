@@ -1,0 +1,33 @@
+<html>
+    <head></head>
+    <body>
+        <div id="saida"></div>
+        <button onClick="lancaMoeda(0)">Cara</button>
+        <button onClick="lancaMoeda(1)">Coroa</button>
+        <script> //código TypeScript compilado para Javascript
+            "use strict";
+            function lancaMoeda(jogador) {
+                //Math.random()
+                let jogadora;
+                jogadora = Math.random();
+                let s;
+                s = "";
+                if (jogadora <= 0.5) {
+                    s += "O resultado foi cara.";
+                    jogadora = 0;
+                }
+                else {
+                    s += "O resultado foi coroa.";
+                    jogadora = 1;
+                }
+                if (jogador == jogadora) {
+                    s += " Você venceu!!!";
+                }
+                else {
+                    s += " Você perdeu! :(";
+                }
+                document.getElementById("saida").innerHTML = s;
+            }
+        </script>
+    <body>
+</html>
