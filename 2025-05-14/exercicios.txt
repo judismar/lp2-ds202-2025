@@ -1,0 +1,5 @@
+1) Criar a classe encapsulada Gato ou Cachorro. Ter ao menos 3 atributos, um construtor e métodos do tipo get e set, se necessário. Lembrar de colocar atributos e métodos como public ou private.
+
+2) Criar a classe Funcionario. A classe deve ter os atributos privados nome e salario. O construtor deve iniciá-los, de forma que qualquer salário menor que 3000 é automaticamente colocado como 3000. Criar get e set para salário.
+
+3) Criar a classe Moeda. Ela deve construir aleatoriamente, ao chamar o construtor, um valor cara ou valor coroa. Pode-se usar número, string ou booleano. Criar um método get que retorne o valor cara (coroa), e outro que lança a moeda.
