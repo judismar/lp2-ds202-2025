@@ -1,0 +1,13 @@
+1) Criar a classe Ponto3D . Ela deve ter os atributos públicos x, y e z, e um construtor para iniciá-los.
+
+2) Criar a classe ListaDePontos, a qual encapsula uma lista de Ponto3D. Assim, a lista deve ser um atributo private. Não precisa de construtor, já que podemos inicializar a lista vazia em sua definição.
+
+3) Criar método getPonto. O método tem como argumento o índice i do elemento a ser retornado, e retorna o i-ésimo ponto da lista. Crie também o método inserePonto. Ele recebe um novo ponto como argumento, e insere no final da lista.
+
+4) Crie um objeto da classe, instanciando-o, para testar a novo tipo lista. Insira 5 pontos.
+
+5) Recrie a classe encapsulada Pessoa, com atributos privados nome e cpf, com construtor para iniciá-los. A classe deve ter getNome, setNome e getCpf (cpf não deve ser alterado).
+
+6) Crie a classe encapsulada ListaPessoa, da mesma maneira que a lista de pontos.
+
+7) Instancie a lista e insira 5 pessoas.
