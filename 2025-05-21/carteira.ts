@@ -36,3 +36,36 @@ class Moeda
 let m1: Moeda = new Moeda();
 m1.setResultado("cara"); //vai dar erro
 console.log(m1.getResultado());
+
+class Carteira
+{
+    private moedas: Moeda[] = [];
+
+    public insereMoeda(novaMoeda: Moeda)
+    {
+        this.moedas.push(novaMoeda);
+    }
+
+    public moedaNoIndice(indice: number)
+    {
+        return this.moedas[indice];
+    }
+
+    public printCarteira()
+    {
+        let s = "";
+        let k = 0;
+        while(k < this.moedas.length)
+        {
+            s += this.moedas[k].getResultado() + '\n';
+            k++;
+        }
+        console.log(s);
+    }
+}
+
+let carteira = new Carteira();
+carteira.insereMoeda(new Moeda());
+carteira.insereMoeda(new Moeda());
+carteira.insereMoeda(new Moeda());
+carteira.printCarteira();
