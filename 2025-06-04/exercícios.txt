@@ -1,0 +1,5 @@
+1) Criar a classe Ponto2D. Ela deve ter os atributos públicos x e y, e um construtor para iniciá-los.
+
+2) Criar a classe Retangulo. Ela deve ter quatro atributos privados Ponto2D (extremidades do retângulo), e precisa ser efetivamente um retângulo (usar ifs para verificar).
+
+3) Definir os métodos perímetro() e área() em Retangulo.
