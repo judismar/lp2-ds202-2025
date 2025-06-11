@@ -1,0 +1,7 @@
+1) Crie a classe Funcionario. Ela deve ter atributos privados nome e salario e um construtor para inicializar seus atributos (salário precisa ser maior que 3000 e menor que 20000). Crie um método do tipo 'get' getNome() para retornar o nome, outro para retornar salário e um método do tipo 'set' para alterar salário (fazendo a verificação acima).
+
+2) Crie uma classe que encapsula uma lista de funcionários, chamada ListaFuncionarios. Ela deve ter um atributo privado, um array (lista) de Funcionario, que inicializa vazio; um método para retornar um Funcionario a partir de um índice e um método para inserir um novo funcionário.
+
+3) Na classe ListaFuncionarios, crie o método imprimeFuncionarios(), o qual lista cada funcionário com seu nome e salário. Para isso, crie, na classe Funcionário, o método imprime(), o qual imprime o nome e o salário do objeto Funcionario que chama o método.
+
+4) Instanciar ListaFuncionarios, instanciar 5 objetos Funcionario e incluir na lista. Imprimir a lista com imprimeFuncionarios().
