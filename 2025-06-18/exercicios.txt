@@ -1,0 +1,13 @@
+1) Crie a classe FormaGeometrica.
+
+2) Crie as classes Circulo e Retangulo. Quais atributos elas vão ter? Vão ser privados? Precisa de get e set?
+
+3) Crie os métodos area() e perimetro() em ambas as classes.
+
+4) Crie um array (lista) de FormaGeometrica. Instancie alguns Retangulo e Circulo, e coloque na lista.
+
+5) Crie a classe ContaBancaria, com atributos privados titular e saldo. Ela deve ter construtor, métodos sacar(), depositar() e métodos get para titular e saldo.
+
+6) Crie as classes Poupanca e ContaCorrente, as quais herdam de ContaBancaria. Elas precisam de mais quais propriedades, que não há em ContaBancaria?
+
+7) Crie a classe Gerente, a qual encapsula uma lista de todas as ContaBancaria. Crie o método para inserir a conta, e instancie 10 contas para inserir na lista. A classe deve ter um método imprime(), o qual imprime todos os dados das contas bancárias.
