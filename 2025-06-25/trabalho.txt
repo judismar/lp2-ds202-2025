@@ -1,0 +1,9 @@
+1) Crie a classe Trabalhador, com nome, salario e um construtor. Deve ter método get para nome, e get e set para salario, o qual deve ser sempre maior que 3000.
+
+2) Crie a classe Funcionario, o qual herda de Trabalhador. Que propriedades ela tem que Trabalhador não tem?
+
+3) No contexto de uma loja, crie as classes Atendente e Gerente. De quem essas classes herdam?
+
+4) Crie a classe ListaFuncionarios, a qual encapsula um array (lista) de Funcionario. O array privado pode ser inicializado vazio. Além dele, crie um método para inserir um novo Funcionario e um método para imprimir os dados de todos os Funcionario no console, em um único log.
+
+5) Instancie ListaFuncionarios e 5 funcionários, podendo ser apenas dos tipos Gerente ou Atendente. Insira os funcionários na ListaFuncionarios e imprima seus dados usando o método criado na questão 4.
