@@ -1,0 +1,9 @@
+1) Crie uma classe `Animal` com o método `emitirSom()`. Crie as subclasses `Cachorro` e `Gato`, sobrescrevendo o método.
+2) Crie uma classe `Funcionario` com o método `calcularBonus()`. Crie subclasses `Gerente` e `Assistente`, cada uma com seu cálculo de bônus.
+3) Crie uma classe `Veiculo` com o método `acelerar()`. Crie as subclasses `Moto` e `Carro`, cada uma com sua própria aceleração.
+4) Crie uma classe `ContaBancaria` com o método `sacar()`. Crie as subclasses `ContaCorrente` e `ContaPoupanca` com diferentes taxas de saque.
+5) Crie uma classe `Pessoa` com o método `falar()`. Crie subclasses `Aluno` e `Professor`, sobrescrevendo o método com diferentes falas.
+6) Crie uma classe `Produto` com o método `calcularPrecoFinal()`. Crie subclasses `ProdutoFisico` e `ProdutoDigital`, cada uma com seu cálculo.
+7) Crie uma classe `Funcionario` com o método `trabalhar()`. Crie subclasses `Gerente` e `Operario`, cada uma com seu estilo de trabalho.
+8) Crie uma classe `Jogador` com o método `jogar()`. Instancie um `Atacante` e um `Defensor` e veja como o método é implementado.
+9) Crie uma classe `SalaDeAula` e uma classe `Aluno`. Uma sala de aula pode ter vários alunos.
