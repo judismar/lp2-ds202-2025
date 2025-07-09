@@ -1,0 +1,11 @@
+Exercício de ponto extra:
+
+1) Crie as classes Jogador, e Guerreiro, Mago e Arqueiro, as quais herdam de Jogador. Defina as devidas propriedades públicas, privadas e protegidas, de forma a estarem encapsuladas e com seus devidos métodos get e/ou set.
+
+2) A classe Jogador deve ter o método atacar(), cujo argumento é outro Jogador.
+
+3) Crie a classe Habilidade, com suas devidas propriedades públicas, privadas e protegidas. Pode haver outras classes de habilidades que herdam de Habilidade, ou não. Vocês escolhem.
+
+4) A classe Jogador deve ter um array (lista) de Habilidade. Ela tem uma lista vazia, mas suas subclasses devem ter ao menos 1 Habilidade.
+
+5) Simule uma batalha com as classes criadas. Pelo menos 3 jogadores devem se atacar. Deve ser impresso no console os ataques e, após o fim da batalha, imprimir outro log com o resultado da batalha.
