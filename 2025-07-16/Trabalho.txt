@@ -1,0 +1,9 @@
+1) Crie a classe Trabalhador, com atributos privados nome e salario. No construtor, o parâmetro passado como salário deve ter valor padrão de 3000. Se o valor passado for menor que 3000, atribuir essa quantia ao salário. Criar método get para nome e get e set para salário, atentando para o valor de 3000.
+
+2) Crie a classe FuncionarioBancario, o qual herda de Trabalhador. Deve ter o atributo privado CPF, o qual terá um método get. Explique, com comentário no código, como o encapsulamento funciona neste contexto.
+
+3) Defina as classes encapsuladas Gerente, Faxineiro e Caixa. Caixa não acrescenta nada que já herdou das outras classes; Faxineiro tem o atributo turno, o qual pode ser de manhã, tarde ou noite. Também tem o método atualizaTurno(), o qual recebe o novo turno como argumento.
+
+4) Gerente deve ter um atributo privado equipe, que é um array (lista) de FuncionarioBancario. Além disso, bonusSalario, o que terá valor padrão de 2000 no construtor. Deve ter os métodos insereFuncionario() e deve sobrescrever getSalario(), somando o valor bonus ao salario original.
+
+5) Simule um dia de trabalho onde o Gerente coordena a equipe e aprova um aumento para dois Caixa e um Faxineiro. Dois Faxineiro mudam de turno e limpam o banco. No final, imprimir um relatório do dia de trabalho.
