@@ -1,0 +1,15 @@
+1) Defina a classe PessoaBrasileira. Ela deve ter nome, idade e o atributo constante de classe LONGEVIDADE_MEDIA. 
+
+2) Defina a classe Idoso, que herda de PessoaBrasileira. Defina um método que verifica e escreve se o idoso está abaixo ou acima da longevidade média.
+
+3) Instancie ao menos um idoso e faça o teste de longevidade.
+
+4) Crie a classe Trabalhador, de forma que o salário mínimo seja um atributo constante readonly de classe chamado SALARIO_MINIMO. Adicione um método de classe que retorne o valor do salário mínimo.
+
+5) Crie o método aumentarSalario, o qual recebe um valor e só atualiza o salário se for maior que SALARIO_MINIMO.
+
+6) Crie a classe Casa com um atributo animalDeEstimacao que aceite Cachorro, Gato ou null. O atributo inicializa como null por padrão.
+
+7) Crie o método adotarAnimal() que recebe um tipo de animal. Crie também o método temAnimal(), que retorna true ou false baseado no valor do atributo: se tiver animal, deve retornar true.
+
+8) Instancie duas casas, colocando um animal em pelo menos uma delas. Faça um if que usa o método temAnimal() para imprimir "Tem bicho", ou "Não tem bicho".
