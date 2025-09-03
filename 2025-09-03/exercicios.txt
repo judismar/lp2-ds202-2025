@@ -1,0 +1,9 @@
+1) Crie a classe Trabalhador, com atributos privados nome e salario, bem como o atributo constante SALARIO_MINIMO. No construtor, o parâmetro passado como salário deve ter valor padrão de Trabalhador.SALARIO_MINIMO. Se o valor passado for menor que ele, atribuir essa quantia ao salário. Criar método get para nome e get e set para salário, atentando para o valor mínimo (SALARIO_MINIMO).
+
+2) Crie a classe FuncionarioBancario, o qual herda de Trabalhador. Deve ter o atributo privado constante CPF, o qual terá um método get.
+
+3) Defina as classes encapsuladas Gerente, Faxineiro e Caixa. Caixa deve ter o método efetuaTransacaoDeCliente(). Faxineiro tem o atributo turnoNoite, o qual pode ser verdadeiro ou falso; também tem o método liberaNoite(), o qual libera o faxineiro de trabalhar à noite.
+
+4) Gerente deve ter um atributo privado equipe, que é um array (lista) de FuncionarioBancario. Além disso, bonusSalario, o que terá valor padrão de 2000 no construtor. Deve ter os métodos insereFuncionario() e deve sobrescrever getSalario(), somando o valor bonus ao salario original.
+
+5) A cada herança feita, o valor padrão de salário deve ser explicitado no construtor de cada classe que herda. Por que isso é importante?
