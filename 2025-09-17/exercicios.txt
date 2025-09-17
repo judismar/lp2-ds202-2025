@@ -1,0 +1,13 @@
+1) Crie a classe abstrata encapsulada Trabalhador, com atributo de classe (static) SALARIO_MINIMO, o qual é constante e inicializado na definição. Além deste atributo, definir nome e salario, o qual são inicializados no construtor (este último com valor padrão de salário mínimo. Quando o salário for passado como argumento e for menor que o salário mínimo, atribuir o salário mínimo ao atributo salario.
+
+2) Crie métodos get para SALARIO_MINIMO (o qual deve ser de classe, static), get para nome e get e set para salario. Declare o protótipo de método getSalarioComHoraExtra(), com seu(s) devido(s) parâmetro(s), e o protótipo de método descricaoFuncao(), sem parâmetros e tipo de retorno string.
+
+3) Defina a classe FuncionarioLoja, a qual implementa todos os métodos abstratos (isso é obrigatório, na verdade; caso contrário, o programa não compila). Paera o método descricaoFuncao() retornar "Funcionário de Loja de Roupas".
+
+4) Defina as classes Atendente, AuxiliarAtendente e Gerente. Lembre-se sempre de verificar os salários, e passar nos construtores o salário padrão.
+
+5) Para cada uma das 3 novas classes, sobrescreva os métodos getSalarioComHoraExtra() e descricaoFuncao().
+
+6) Agora instancie as classes. Defina um array de Trabalhador, e insira pelo menos 5 trabalhadores da loja.
+
+7) Para finalizar, usando for, imprima o nome, salário e descrição de função de cada trabalhador no console.
