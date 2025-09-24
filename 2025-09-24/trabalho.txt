@@ -1,14 +1,14 @@
 Trabalho:
 
-1) Defina a classe encapsulada Pessoa, com nome e cpf, bem como os métodos get e set de nome e get de cpf. Além. disso, tem que ter construtor.
+1) Defina a classe encapsulada Pessoa, com nome e cpf, bem como os métodos get e set de nome e get de cpf. Além disso, tem que ter construtor.
 
 2) Defina a classe abstrata encapsulada Veiculo, o qual tem atributo dono (tipo Pessoa | null). No construtor, podemos passar tanto Pessoa quanto o valor null; porém, o argumento padrão deve ser null. Defina o métodos get e set para o atributo 'dono'.
 
-3) Defina agora as classes Bicileta e VeiculoMotorizado, as quais herdam de Veiculo. VeiculoMotorizado é abstrata deve ter 'placa', bem como método do tipo get para placa. Também tem o método getCpfDono(), o qual retorna o cpf do dono do VeiculoMotorizado. Além disso, declarar o protótipo de método abstrato 
+3) Defina agora as classes Bicicleta e VeiculoMotorizado, as quais herdam de Veiculo. VeiculoMotorizado é abstrata e deve ter o atributo 'placa', bem como o método do tipo get para placa. Também tem o método getCpfDono(), o qual retorna o cpf do dono do VeiculoMotorizado. Além disso, declarar o protótipo de método abstrato 
 numeroDeRodas().
 
-4) Defina as classes Carro e Moto, as quais herdam de VeiculoMotorizado. Implemente o método numeroDeRodas em ambos. Observe que é preciso passar o dono de cada veículo no construtor, de modo a sempre ter valor padrão null. A ideia é que os construtores, por meio de super(), joguem a responsabilidade de inicializar o atributo dono para Veiculo.
+4) Defina as classes Carro e Moto, as quais herdam de VeiculoMotorizado. Implemente o método numeroDeRodas() em ambos. Observe que é preciso passar o dono de cada veículo no construtor, de modo a sempre ter valor padrão null. A ideia é que os construtores, por meio de super(), joguem a responsabilidade de inicializar o atributo dono para Veiculo.
 
-5) Defina a classe encapsulada Estacionamento. Ela deve ter um atributo que é um array de VeiculoMotorizado, bem como método que insere um novo veículo, um método que retorna o veículo a partir de um índice.
+5) Defina a classe encapsulada Estacionamento. Ela deve ter um atributo que é um array de VeiculoMotorizado, bem como método que insere um novo veículo e um método que retorna o veículo a partir de um índice.
 
 6) Instancie Estacionamento e inclua pelo menos 10 veículos motorizados. Usando 'for', percorra cada veículo e imprima o nome do dono, caso exista. Se dono for null, imprimir "Veículo sem dono".
