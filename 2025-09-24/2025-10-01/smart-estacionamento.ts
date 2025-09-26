@@ -35,7 +35,7 @@ class Carro extends Veiculo
     }
 }
 
-class Moto extends VeiculoMotorizado
+class Moto extends Veiculo
 {
     constructor(placa: string, dono: Pessoa | null = null)
 	{
