@@ -1,0 +1,13 @@
+Trabalho: Estacionamento Digital
+
+1) Defina a classe Estacionamento. Para começar, ela deve ter um atributo que é um array de Veiculo, bem como um método que insere um novo veículo.
+
+2) Instancie Estacionamento e inclua pelo menos 10 veículos motorizados, onde pelo menos 2 não tem dono. Os outros donos são celebridades e pessoas famosas (opcional; use criatividade), os quais podem ou não possuir mais de um veículo. Dica: isso pode ser feito em uma única linha de código!
+
+3) Defina um método em Estacionamento que busca um veículo pela sua placa (a qual é o argumento do método). Ele deve retornar um objeto Veiculo, ou então null, caso não encontre o veículo com a placa especificada.
+
+4) Defina um método em Estacionamento que busca todos os carros, e os retorna em um array do tipo Carro. Dica: if(objeto instanceof Carro)
+
+5) Escrever um algoritmo que encontra as placas de todos os veículos pertencentes a uma pessoa específica (de sua escolha). Exemplo: Encontrar todos os veículos de "Jão".
+
+Extra: não vale nota) Defina um método em Estacionamento que imprima no console um relatório com os seguintes dados: número total de veículos, número de veículos com dono, número de veículos sem dono, número de carros e número de motos. Depois, executar este método e ver o resultado.
