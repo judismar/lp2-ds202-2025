@@ -1,0 +1,7 @@
+Svelte:
+
+1) Crie a classe abstrata Incrementador.
+
+2) Crie os métodos de classe (static) incrementa() e decrementa()
+
+3) Crie um botão que decrementa, e amarre (onclick) os botões aos métodos de classe (count tem que ser $state!!!).
