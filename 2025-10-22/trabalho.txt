@@ -1,0 +1,7 @@
+Criar a classe Fracao, cujos atributos principais são 'numerador' e 'denominador'.
+
+-Criar uma método que imprima a fração (pode ser assim: numerador/denominador).
+
+-Usando sobrecarga ou valor padrão, criar um método chamado computar(), o qual pode receber um número como argumento ou não. Caso não tenha argumento, o método imprime a divisão do numerador pelo denominador em notação decimal, e retorna false. Caso haja um número passado como argumento, verificar se tanto o numerador como o denominador são divisíveis por este número; se sim, dividí-los, atualizando assim a fração para uma versão simplificada e retornando true. Caso contrário, retornar false.
+
+-Instanciar 3 frações, sendo duas delas idênticas, mas com numerador e denominador diferentes. Assim, usar o método para simplificar alguma fração para que os numeradores e denominadores sejam idênticos. Depois, usar o método que imprime frações para imprimir as 3.
