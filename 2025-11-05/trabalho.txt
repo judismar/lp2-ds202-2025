@@ -1,0 +1,13 @@
+Trabalho:
+
+Considere as classes do arquivo trabalho.ts. Faça o que se pede a seguir.
+
+1) Crie a classe Gerente, a qual herda de FuncionarioBancario. Ela deve ter construtor com valor padrão de salário, conforme as outras classes. Também deve ter atributo 'equipe' (array de FuncionarioBancario).
+
+2) Definir o método concederAumento(), o qual recebe como argumento o novo salário. Verificar se o novo salário é maior que o atual: caso seja maior, atualizar salario. Caso contrário, lançar erro (throw Error("mensagem sua")) com a mensagem de sua escolha.
+
+3) Definir o método alteraTurno(), o qual recebe como o argumento um Faxineiro e o novo turno de Faxineiro. Ele apenas chama o método do objeto do tipo Faxineiro colocando como argumento o novo turno. Observe que o erro é tratado em Faxineiro, não em Gerente: legibilidade, redigibilidade e reusabilidade de código.
+
+4) Instanciar ao menos 1 Gerente. Depois, inserir na equipe dele pelo menos 5 funcionários, sendo pelo menos 1 Faxineiro, todos tendo nomes e cpfs de sua escolha.
+
+5) Dê aumento para pelo menos 3 funcionários e altere o turno de pelo menos 1 Faxineiro, usando os métodos recém criados de Gerente. Depois, usando for, imprimir cada membro da equipe com suas devidas alterações. Pode fazer alterações que levem a erro. Dica: use for com 'of', pois facilita muito: for(let funcionario of gerente.equipe){}
