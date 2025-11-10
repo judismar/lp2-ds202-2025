@@ -56,7 +56,7 @@ class Arqueiro extends Jogador
         //Se estiver mirando, causa mais dano
         let dano = this.mirando ? 3*(this.forca + Math.floor(Math.random()*10)) : this.forca + Math.floor(Math.random()*10);
         alvo.receberDano(dano);
-		    this.mirando = false;
+		this.mirando = false;
     }
 
     mirar()
