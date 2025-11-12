@@ -1,0 +1,9 @@
+Considere as classes do arquivo jogador.ts. Faça o que se pede a seguir.
+
+-No playground do Svelte, copie as classes dentro da tag script. Coloque a tag como <script lang='ts'> para usar TypeScript.
+
+-Vamos criar um jogo simples, com dois botões e um ou dois parágrafos de texto acima para narrar o jogo. A ideia é a seguinte: O jogador é o arqueiro, e o oponente é o guerreiro. O guerreiro deve estar a duas jogadas de distância do arqueiro (isto é, só poderá atacar depois de uma jogada). Um dos botões serve para Mirar, enquanto o outro serve para Atacar (disparar arco). Mirar é importante pois aumenta o dano da flecha, mas leva uma jogada embora. A cada jogada, é preciso atualizar o texto ("Guerreiro chegou", "Você acerta o guerreiro com 20 de dano" etc.).
+
+-Você precisa avisar quando um dos personagens perder toda a vida e cair.
+
+-Use uma runa (state) para atualizar o(s) campo(s) de texto acima dos botões para deixar o jogo dinâmico.
